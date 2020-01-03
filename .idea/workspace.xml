@@ -2,7 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3216e14-efbb-4afb-a737-8cadb05789f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ics332_hw1_qkeb700/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ics332_hw2_qkeb700/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ics332_hw3_qkeb700/fswatcher/FSWatcherQ1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ics332_hw3_qkeb700/fswatcher/FSWatcherQ1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ics332_hw3_qkeb700/fswatcher/FSWatcherUseCaseQ1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ics332_hw3_qkeb700/fswatcher/FSWatcherUseCaseQ1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ics332_hw3_qkeb700/fswatcher/hi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ics332_hw3_qkeb700/kvstore/.KVServer.java.swp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ics332_hw3_qkeb700/kvstore/KVClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ics332_hw3_qkeb700/kvstore/KVClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ics332_hw3_qkeb700/kvstore/KVInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ics332_hw3_qkeb700/kvstore/KVInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ics332_hw3_qkeb700/kvstore/KVServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ics332_hw3_qkeb700/kvstore/KVServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ics332_hw3_qkeb700/kvstore/KVServer2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ics332_hw3_qkeb700/kvstore/KVServer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ics332_hw4_qkeb700/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ics332_hw4_qkeb700/fswatcher/.FSWatcherUseCaseQ3.java.swp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ics332_hw4_qkeb700/fswatcher/FSWatcherQ2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ics332_hw4_qkeb700/fswatcher/FSWatcherQ2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ics332_hw4_qkeb700/fswatcher/FSWatcherQ3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ics332_hw4_qkeb700/fswatcher/FSWatcherQ3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ics332_hw4_qkeb700/fswatcher/FSWatcherUseCaseQ2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ics332_hw4_qkeb700/fswatcher/FSWatcherUseCaseQ2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ics332_hw4_qkeb700/fswatcher/FSWatcherUseCaseQ3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ics332_hw4_qkeb700/fswatcher/FSWatcherUseCaseQ3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ics332_hw4_qkeb700/paths/ComputePaths.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ics332_hw4_qkeb700/paths/ComputePaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ics332_hw4_qkeb700/paths/FloydWarshall.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ics332_hw4_qkeb700/paths/FloydWarshall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,16 +41,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ics332_hw1_qkeb700/README">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ics332_hw1_qkeb700/README" />
+      </list>
+    </option>
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -29,11 +59,13 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="377" />
-    <option name="y" value="1" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1030" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -51,7 +83,7 @@
             <path>
               <item name="ICS332" type="b2602c69:ProjectViewProjectNode" />
               <item name="ICS332" type="462c0819:PsiDirectoryNode" />
-              <item name="ics332_hw1_qkeb700" type="462c0819:PsiDirectoryNode" />
+              <item name="ics332_hw3_qkeb700" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -64,6 +96,12 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\github\ICS332\ics332_hw3_qkeb700" />
+      <recent name="D:\github\ICS332\ics332_hw2_qkeb700" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -78,12 +116,11 @@
     </option>
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
-    <editor active="true" />
+    <frame x="762" y="0" width="781" height="824" extended-state="0" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5080645" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26209676" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
@@ -105,8 +142,15 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ics332_hw1_qkeb700/README">
+    <entry file="file://$PROJECT_DIR$/ics332_hw2_qkeb700/README.txt">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ics332_hw1_qkeb700/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="51" column="53" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
