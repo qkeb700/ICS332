@@ -1,0 +1,52 @@
+Exercise1
+
+q1.  openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+
+q2. 19 times trying to open, 3 times failed. sudo strace -c du -h(This command also shows how may errors occured when opening a file. sudo strace -e trace=openat du -h(This command shows how many times du tried to open a file)
+
+q3. 16 different system calls are placed. For this, I also used the same command line by sudo strace -c du -h. This command shows that how many differnt system calls are placed on du.
+
+q4. real    0m0.043s
+user    0m0.000s
+sys     0m0.031s
+
+q5. Based on the output of time real    0m0.043s
+user    0m0.000s
+sys     0m0.031s
+
+real    0m0.048s
+user    0m0.000s
+sys     0m0.047s
+
+real    0m0.049s
+user    0m0.016s
+sys     0m0.031s
+
+real    0m0.049s
+user    0m0.000s
+sys     0m0.047s
+
+real time = user time + system time + (I/O time). I/O times approximately 0m0.002. Therefore, 4 percentage of the execution time of the du command is spent doing I/O.
+
+q6. By the command sudo strace -T du -sh, CPU time spent averagely 0 seconds to execute the instructions of a system call
+
+Exercise2
+
+q1. 367 system calls are placed by wget because the first read system call is at 368{read(3, "The Project Gutenberg EBook of T"..., 8192) = 4096
+371:write(4, "The Project Gutenberg EBook of T"..., 4096) = 4096}
+
+q2. wget typically attempts to read 8192 bytes from the file at a time because read system call has 3 argument and the third argment means the number of bytes to be read from the file.
+
+q3. It reads 1115 times of pieces of file content because grep -c command with "read(3" filename.
+
+q4. 0 times. Because the command sudo strace -c wget the URL shows that many of read system calls but no errors.
+
+q5. No, for read buffer, wget doesn't typically fill its buffer because if you look into the read system call, it can take upto 8192, but its returned value is typically 4096. On the other hand, write buffer typically fills its buffer.
+
+q6. 1179 times. I used the same command as the above for the q3.
+
+q7. 0 times. The result of read syscalls shows no return -1.
+
+q8. no. same as q5 above
+
+q9. Because the difference of both files and syscall.
