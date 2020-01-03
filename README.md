@@ -1,1 +1,1 @@
-# ICS332
+# ICS332 Operating Systems
